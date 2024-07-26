@@ -1,4 +1,10 @@
-.menu_header nav{
-    display: flex;
-    justify-content: center;
+.navbar-custom {
+    background-color: #3498db; /* Aquí pones tu color de fondo personalizado */
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #ffffff; /* Color del texto del navbar */
+}
+.navbar-custom .nav-link.active {
+    color: #ffd700; /* Color del texto activo */
 }
